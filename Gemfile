@@ -38,7 +38,7 @@ gem 'compass-rails', '~> 2.0.alpha.0'
 gem 'figaro'
 
 #API wrapper for MailChimp
-gem 'gibbon' 
+gem 'gibbon', '~> 1.2.0' 
 
 #API wrapper for google_drive
 gem 'google_drive'
