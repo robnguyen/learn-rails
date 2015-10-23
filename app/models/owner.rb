@@ -8,6 +8,15 @@ class Owner
     birthdate = Date.new(1993,01,20)
   end
 
+  def email
+    email = 'robnguyen@cmail.carleton.ca'
+  end
+
+  def phone
+    phone = '613-986-4663'
+  end
+
+
   def countdown
     today = Date.today
     birthday = Date.new(today.year,birthdate.month,birthdate.day)
@@ -17,4 +26,5 @@ class Owner
       countdown = (birthday.next_year - today).to_i
     end
   end
+
 end
