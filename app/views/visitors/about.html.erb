@@ -1,2 +1,9 @@
 <h3>About</h3>
 <p>I am a web developing caterpillar, my name is <%= @owner.name %>.</p>
+<p>I work as a Software Engineer at Ciena. I'm on the Packet Team of the OME6500</p>
+<p> My Hobbies Include: </p>
+<ul>
+  <% @owner.hobbies.each do |i| %>
+    <li><%= i %></li>
+  <% end %>
+</ul>

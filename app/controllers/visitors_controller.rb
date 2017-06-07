@@ -10,4 +10,8 @@ class VisitorsController < ApplicationController
   def contact
     @owner = Owner.new
   end
+
+  def periodic_table
+    @owner = Owner.new
+  end
 end

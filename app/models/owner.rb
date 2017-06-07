@@ -16,6 +16,10 @@ class Owner
     phone = '613-986-4663'
   end
 
+  def hobbies
+    hobbies = ['Programming','Listening to Music', 'Running', 'Volleyball', 'Rum']
+  end
+
 
   def countdown
     today = Date.today
@@ -26,5 +30,7 @@ class Owner
       countdown = (birthday.next_year - today).to_i
     end
   end
+
+
 
 end
